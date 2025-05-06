@@ -102,7 +102,7 @@ export const Projects = () => {
             target="_blank"
             href="https://github.com/hubertcen"
           >
-            Check My Github <ArrowRight size={16} />
+            Connect My Github <ArrowRight size={16} />
           </a>
         </div>
       </div>
