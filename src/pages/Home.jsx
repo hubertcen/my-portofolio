@@ -1,4 +1,9 @@
 import { ThemeToggle } from "../components/ThemeToggle";
+import { BackgroundEffect } from "@/components/BackgroundEffect";
+import { Navbar } from "@/components/Navbar";
+import { Hero } from "@/components/Hero";
+import { About } from "@/components/About";
+import { Skills } from "@/components/Skills";
 
 export const Home = () => {
   return (
@@ -6,11 +11,13 @@ export const Home = () => {
       {/* Theme Toggle */}
       <ThemeToggle />
       {/* Background Effect */}
-
+      <BackgroundEffect />
       {/* Navbar */}
-
+      <Navbar />
       {/* Main Content */}
-
+      <Hero />
+      <About />
+      <Skills />
       {/* Footer */}
     </div>
   );
