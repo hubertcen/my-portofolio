@@ -1,4 +1,7 @@
 import { ArrowRight, ExternalLink, Github } from "lucide-react";
+import project1Image from "../assets/beta-coffee.png";
+import project2Image from "../assets/hubert-movie.png";
+import project3Image from "../assets/sushi-restaurant.png";
 
 const projects = [
   {
@@ -6,30 +9,30 @@ const projects = [
     title: "Beta Coffee Shop",
     description:
       "A beautiful coffee shop landing page using React and Tailwind.",
-    image: "/projects/project1.png",
-    tags: ["React", "TailwindCSS"],
-    demoUrl: "#",
-    githubUrl: "#",
+    image: project1Image,
+    tags: ["React", "TailwindCSS", "Vite"],
+    demoUrl: "https://beta-coffee.vercel.app/",
+    githubUrl: "https://github.com/hubertcen/beta-coffee",
   },
   {
     id: 2,
-    title: "Orbit Analytics Dashboard",
+    title: "Hubert Movie",
     description:
-      "Interactive analytics dashboard with data visualization and filtering capabilities.",
-    image: "/projects/project2.png",
-    tags: ["TypeScript", "D3.js", "Next.js"],
-    demoUrl: "#",
-    githubUrl: "#",
+      "A web application that enables users to easily search for movies",
+    image: project2Image,
+    tags: ["React", "TMDB API"],
+    demoUrl: "https://hubert-movie.vercel.app/",
+    githubUrl: "https://github.com/hubertcen/hubert-movie",
   },
   {
     id: 3,
-    title: "E-commerce Platform",
+    title: "Sushi Restaurant",
     description:
-      "Full-featured e-commerce platform with user authentication and payment processing.",
-    image: "/projects/project3.png",
-    tags: ["React", "Node.js", "Stripe"],
-    demoUrl: "#",
-    githubUrl: "#",
+      "An aesthetic sushi restaurant landing page using HTML and CSS",
+    image: project3Image,
+    tags: ["HTML", "CSS"],
+    demoUrl: "https://houseofsushi.vercel.app/",
+    githubUrl: "https://github.com/hubertcen/sushi-restaurant",
   },
 ];
 
