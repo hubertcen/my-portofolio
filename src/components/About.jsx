@@ -11,21 +11,19 @@ export const About = () => {
 
         <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
           <div className="space-y-6">
-            <h3 className="text-2xl font-semibold">
-              Passionate Web Developer & Tech Creator
-            </h3>
+            <h3 className="text-2xl font-semibold"></h3>
 
             <p className="text-muted-foreground">
-              With over 5 years of experience in web development, I specialize
-              in creating responsive, accessible, and performant web
-              applications using modern technologies.
+              As a front-end developer with hands-on experience from a year
+              internship at PT Telkom Indonesia, I focus on building responsive,
+              accessible, and user-friendly interfaces using Javascript
+              framework like React.
             </p>
 
             <p className="text-muted-foreground">
-              I'm passionate about creating elegant solutions to complex
-              problems, and I'm constantly learning new technologies and
-              techniques to stay at the forefront of the ever-evolving web
-              landscape.
+              I’m passionate about crafting clean solutions for complex
+              challenges and always eager to learn new technologies to stay
+              ahead in the fast-changing world of web development.
             </p>
 
             <div className="flex flex-col sm:flex-row gap-4 pt-4 justify-center">
@@ -50,10 +48,12 @@ export const About = () => {
                   <Code className="h-6 w-6 text-primary" />
                 </div>
                 <div className="text-left">
-                  <h4 className="font-semibold text-lg"> Web Development</h4>
+                  <h4 className="font-semibold text-lg">
+                    Front End Development
+                  </h4>
                   <p className="text-muted-foreground">
-                    Creating responsive websites and web applications with
-                    modern frameworks.
+                    Creating responsive, fast, and accessible websites with
+                    modern technologies
                   </p>
                 </div>
               </div>
@@ -64,10 +64,10 @@ export const About = () => {
                   <User className="h-6 w-6 text-primary" />
                 </div>
                 <div className="text-left">
-                  <h4 className="font-semibold text-lg">UI/UX Design</h4>
+                  <h4 className="font-semibold text-lg">UI UX Design</h4>
                   <p className="text-muted-foreground">
-                    Designing intuitive user interfaces and seamless user
-                    experiences.
+                    Designing intuitive and user-centered interfaces that
+                    balance aesthetics and usability
                   </p>
                 </div>
               </div>
@@ -79,10 +79,11 @@ export const About = () => {
                 </div>
 
                 <div className="text-left">
-                  <h4 className="font-semibold text-lg">Project Management</h4>
+                  <h4 className="font-semibold text-lg">
+                    SQL for Data Management
+                  </h4>
                   <p className="text-muted-foreground">
-                    Leading projects from conception to completion with agile
-                    methodologies.
+                    Basic SQL knowledge for managing and querying databases
                   </p>
                 </div>
               </div>
