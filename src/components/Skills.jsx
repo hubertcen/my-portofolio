@@ -12,7 +12,6 @@ const skills = [
   { name: "Vite", imagePath: "/icons/vite-icon.png" },
   { name: "Wordpress", imagePath: "/icons/wordpress-icon.png" },
   { name: "Figma", imagePath: "/icons/figma-icon.png" },
-  { name: "Adobe XD", imagePath: "/icons/xd-icon.png" },
   { name: "Canva", imagePath: "/icons/canva-icon.png" },
 ];
 
